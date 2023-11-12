@@ -16,3 +16,5 @@
 - UISystem
     - 所有的UI从此进行间接的打开和关闭操作。本代码统一使用的是typename作为key进行查找OpenTargetUIState<UIType>(),其会自动转换为key(typeof(Type).Name)并从UIManager中获取。
     - 内有UIStack栈,存储当前打开的层级UI。
+
+    --嘿嘿--
